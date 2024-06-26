@@ -22,7 +22,7 @@ export default function Page() {
       </p>
       <p className="mt-2">You can read more about me here:</p>
 
-      <div className="my-4 flex w-full flex-row space-x-2">
+      <div className="my-4 flex w-full flex-row space-x-2 overflow-x-auto">
         <a href="/Resume.pdf" download>
           <div className="flex gap-2 items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
             <Download width={24} height={24} fill="#ffffff" />

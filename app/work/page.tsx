@@ -1,5 +1,9 @@
 const Work = () => {
-  return <div></div>
+  return (
+    <div>
+      <p>Coming soon</p>
+    </div>
+  )
 }
 
 export default Work
