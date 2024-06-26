@@ -1,11 +1,11 @@
 import Image from 'next/image'
 
-import caffe from '@/public/caffe.jpeg'
+import working from '@/public/working.jpeg'
 import evening from '@/public/evening.jpeg'
 import meetup from '@/public/meetup.jpg'
 import creator from '@/public/creator.jpeg'
 import mentorship from '@/public/mentorship.jpeg'
-import cigar from '@/public/cigar.jpeg'
+import lounge from '@/public/lounge.jpeg'
 
 const Gallery = () => {
   return (
@@ -13,7 +13,7 @@ const Gallery = () => {
       <div className="relative h-40">
         <Image
           alt="Image 1"
-          src={caffe}
+          src={working}
           fill
           sizes="(max-width: 768px) 213px, 33vw"
           priority
@@ -53,7 +53,7 @@ const Gallery = () => {
       <div className="relative row-span-2">
         <Image
           alt=""
-          src={cigar}
+          src={lounge}
           fill
           sizes="(max-width: 768px) 213px, 33vw"
           priority
