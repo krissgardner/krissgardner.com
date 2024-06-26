@@ -1,11 +1,5 @@
 import Gallery from '@/components/Gallery'
-import {
-  Arrow,
-  Download,
-  GitHub,
-  Instagram,
-  LinkedIn,
-} from '@/components/icons'
+import { Arrow, Download, GitHub, LinkedIn } from '@/components/icons'
 
 export default function Page() {
   return (
@@ -24,32 +18,25 @@ export default function Page() {
 
       <div className="my-4 flex w-full flex-row space-x-2 overflow-x-auto">
         <a href="/Resume.pdf" download>
-          <div className="flex gap-2 items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
+          <div className="flex gap-2 items-center justify-between rounded border px-3 py-4 border-neutral-700 bg-neutral-800">
             <Download width={24} height={24} fill="#ffffff" />
             <p className="text-white">Resume</p>
           </div>
         </a>
 
         <a target="_blank" href="https://linkedin.com/in/kriss-gardner">
-          <div className="flex gap-2 items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
+          <div className="flex gap-2 items-center justify-between rounded border px-3 py-4 border-neutral-700 bg-neutral-800">
             <LinkedIn width={24} height={24} fill="#ffffff" />
             <p className="text-white text-nowrap">kriss-gardner</p>
           </div>
         </a>
 
         <a target="_blank" href="https://github.com/krissgardner">
-          <div className="flex gap-2 items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
+          <div className="flex gap-2 items-center justify-between rounded border px-3 py-4 border-neutral-700 bg-neutral-800">
             <GitHub width={24} height={24} fill="#ffffff" />
             <p className="text-white">krissgardner</p>
           </div>
         </a>
-
-        {/*<a target="_blank" href="https://www.instagram.com/kriss.gardner/">*/}
-        {/*  <div className="flex gap-2 items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">*/}
-        {/*    <Instagram width={24} height={24} fill="#ffffff" />*/}
-        {/*    <p className="text-white">kriss.gardner</p>*/}
-        {/*  </div>*/}
-        {/*</a>*/}
       </div>
 
       <p className="mt-8">
@@ -59,7 +46,7 @@ export default function Page() {
         hospitality industry where I am proud to introduce The G.AI.A.
       </p>
 
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 md:flex-row md:space-x-4 md:space-y-0 text-neutral-300">
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-100"
