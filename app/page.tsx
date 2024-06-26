@@ -33,7 +33,7 @@ export default function Page() {
         <a target="_blank" href="https://linkedin.com/in/kriss-gardner">
           <div className="flex gap-2 items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
             <LinkedIn width={24} height={24} fill="#ffffff" />
-            <p className="text-white">kriss-gardner</p>
+            <p className="text-white text-nowrap">kriss-gardner</p>
           </div>
         </a>
 
