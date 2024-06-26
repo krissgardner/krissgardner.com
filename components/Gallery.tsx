@@ -20,14 +20,14 @@ const Gallery = () => {
           className="rounded-lg object-cover"
         />
       </div>
-      <div className="relative sm:row-span-2 row-span-1">
+      <div className="relative row-span-2">
         <Image
           alt="Me at a networking event with other freelancers."
           src={evening}
           fill
           sizes="(max-width: 768px) 213px, 33vw"
           priority
-          className="rounded-lg object-cover object-top sm:object-center"
+          className="rounded-lg object-cover object-center"
         />
       </div>
       <div className="relative">
@@ -47,17 +47,17 @@ const Gallery = () => {
           fill
           sizes="(max-width: 768px) 213px, 33vw"
           priority
-          className="rounded-lg object-cover sm:object-center"
+          className="rounded-lg object-cover"
         />
       </div>
-      <div className="relative row-span-2">
+      <div className="relative row-span-1 sm:row-span-2">
         <Image
           alt="Me holding a weekly Q&A with some of my students."
           src={lounge}
           fill
           sizes="(max-width: 768px) 213px, 33vw"
           priority
-          className="rounded-lg object-cover"
+          className="rounded-lg object-cover object-top sm:object-center"
         />
       </div>
       <div className="relative h-40">
