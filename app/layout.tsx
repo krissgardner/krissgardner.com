@@ -1,10 +1,9 @@
+import React from 'react'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { GeistSans } from 'geist/font/sans'
+import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 import Navigation from '@/components/Navigation'
-import React from 'react'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Kriss Gardner',
@@ -18,9 +17,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.className}`}>
-        <div className="max-w-3xl px-10 mt-16 mx-auto">
+    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
+      <body>
+        <div className="antialiased max-w-3xl px-10 my-16 mx-auto">
           <Navigation />
           {children}
         </div>
