@@ -1,5 +1,11 @@
 import Gallery from '@/components/Gallery'
-import { Download, Instagram, LinkedIn } from '@/components/icons'
+import {
+  Arrow,
+  Download,
+  GitHub,
+  Instagram,
+  LinkedIn,
+} from '@/components/icons'
 
 export default function Page() {
   return (
@@ -31,13 +37,52 @@ export default function Page() {
           </div>
         </a>
 
-        <a target="_blank" href="https://www.instagram.com/kriss.gardner/">
+        <a target="_blank" href="https://github.com/krissgardner">
           <div className="flex gap-2 items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
-            <Instagram width={24} height={24} fill="#ffffff" />
-            <p className="text-white">kriss.gardner</p>
+            <GitHub width={24} height={24} fill="#ffffff" />
+            <p className="text-white">krissgardner</p>
           </div>
         </a>
+
+        {/*<a target="_blank" href="https://www.instagram.com/kriss.gardner/">*/}
+        {/*  <div className="flex gap-2 items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">*/}
+        {/*    <Instagram width={24} height={24} fill="#ffffff" />*/}
+        {/*    <p className="text-white">kriss.gardner</p>*/}
+        {/*  </div>*/}
+        {/*</a>*/}
       </div>
+
+      <p className="mt-8">
+        Over the past few years, I have founded a few of my own projects. After
+        creating a web developer coaching community Tenxbase, then creating a
+        productivity SaaS Skool Assistant, I have now set my eyes on the
+        hospitality industry where I am proud to introduce The G.AI.A.
+      </p>
+
+      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.instagram.com/kriss.gardner/"
+          >
+            <Arrow />
+            <p className="ml-2 h-7">follow me</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://newsletter.krissgardner.com"
+          >
+            <Arrow />
+            <p className="ml-2 h-7">get email updates</p>
+          </a>
+        </li>
+      </ul>
     </main>
   )
 }
