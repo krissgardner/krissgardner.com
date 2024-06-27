@@ -183,6 +183,36 @@ const Work = () => {
           user experience analysis.
         </li>
       </ul>
+
+      <hr />
+
+      <h2 className="font-medium text-xl mb-1 tracking-tighter">
+        Upgrade Education
+      </h2>
+      <p className="text-neutral-400 text-sm mb-4">
+        Technical Lead, Oct 2022 - Feb 2023
+      </p>
+
+      <p className="my-5">
+        Upgrade Education is a network of alumni from prestigious universities
+        around the world that is dedicated to smoothing the application process
+        for ambitious students.
+      </p>
+
+      <ul className="list-dark">
+        <li>
+          Reduced internal tickets by over 60% refactoring APIs and Databases
+          for more consistent data tracking.
+        </li>
+        <li>
+          Streamlined task management and ensured code quality through
+          consistent reviews.
+        </li>
+        <li>
+          Influenced feature development through technical assessments,
+          contributing to the product’s overall shape up.
+        </li>
+      </ul>
     </div>
   )
 }
