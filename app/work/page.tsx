@@ -1,3 +1,5 @@
+import Underline from '@/components/Underline'
+
 const Work = () => {
   return (
     <div>
@@ -115,35 +117,38 @@ const Work = () => {
 
       <hr />
 
-      <h2 className="font-medium text-xl mb-1 tracking-tighter">Genova.ai</h2>
+      <h2 className="font-medium text-xl mb-1 tracking-tighter">Traderion</h2>
       <p className="text-neutral-400 text-sm mb-4">
-        Freelance Full Stack Developer, Jun 2023 - Oct 2023
+        Senior Full Stack Developer, Jan 2021 - Jul 2023
       </p>
 
       <p className="my-5">
-        Venture studio building products around Generative AI
+        Traderion is the largest developer of an online financial markets
+        simulator platform intended to help companies hire employees. The
+        company offers profiling and training of trading professionals using
+        gamified simulators and machine-learning algorithms and also provides
+        assessment services that accurately identify top talent and predict its
+        future professional performance, enabling clients to get the best-fit
+        candidate.
+      </p>
+      <p className="my-5">
+        During my time at Traderion, I developed the following services:
+        Portfolio Management, Mergers & Acquisitions, Options & Trading
+        Simulators, Asset Management
       </p>
 
       <ul className="list-dark">
         <li>
-          Improved output quality by 10% by developing AI picture filtering &
-          detection before upload.
+          Built a SaaS Options Simulator MVP in{' '}
+          <Underline>less than 3 months</Underline> and a SaaS M&A MVP in{' '}
+          <Underline>less than 6 months</Underline> while working closely with a
+          non technical founder.
         </li>
         <li>
-          Reduced client tickets by over 60% by creating feedback & rewards
-          systems.
+          Amplified client pool by 40% and company revenue by 50% implementing
+          time sensitive features.
         </li>
-        <li>
-          Increased traffic and incentivised users to share the app by
-          implementing a referral code feature.
-        </li>
-        <li>
-          Elevated user data collection with a system of prompt selection
-          interfaces.
-        </li>
-        <li>
-          Developed time sensitive features for both iOS and Android devices.
-        </li>
+        <li>Managed over 3.000+ users and over 200,000+ actions every day.</li>
       </ul>
     </div>
   )
