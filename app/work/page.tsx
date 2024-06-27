@@ -112,6 +112,39 @@ const Work = () => {
           Developed time sensitive features for both iOS and Android devices.
         </li>
       </ul>
+
+      <hr />
+
+      <h2 className="font-medium text-xl mb-1 tracking-tighter">Genova.ai</h2>
+      <p className="text-neutral-400 text-sm mb-4">
+        Freelance Full Stack Developer, Jun 2023 - Oct 2023
+      </p>
+
+      <p className="my-5">
+        Venture studio building products around Generative AI
+      </p>
+
+      <ul className="list-dark">
+        <li>
+          Improved output quality by 10% by developing AI picture filtering &
+          detection before upload.
+        </li>
+        <li>
+          Reduced client tickets by over 60% by creating feedback & rewards
+          systems.
+        </li>
+        <li>
+          Increased traffic and incentivised users to share the app by
+          implementing a referral code feature.
+        </li>
+        <li>
+          Elevated user data collection with a system of prompt selection
+          interfaces.
+        </li>
+        <li>
+          Developed time sensitive features for both iOS and Android devices.
+        </li>
+      </ul>
     </div>
   )
 }
