@@ -54,11 +54,14 @@ export default function Page() {
       </div>
 
       <p className="mt-8">
-        Over the past few years, I have founded a few of my own projects. After
-        creating a web developer coaching community <Tag>Tenxbase</Tag> and
-        creating a productivity SaaS <Tag>Skool Assistant</Tag>, I have now set
-        my eyes on the hospitality industry where I am proud to introduce{' '}
-        <Tag>The G.AI.A</Tag>.
+        Over the past few years, I have founded my own software projects. I
+        started with creating a web developer coaching community{' '}
+        <Tag>Tenxbase</Tag> and after that, created an automation service{' '}
+        <Tag>Skool Assistant</Tag>.
+      </p>
+      <p className="mt-4">
+        Now, I have set my eyes on the hospitality industry with a new project
+        called <Tag>The G.AI.A</Tag>. Stay tuned to find out more!
       </p>
 
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 md:flex-row md:space-x-4 md:space-y-0 text-neutral-300">
