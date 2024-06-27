@@ -1,5 +1,6 @@
 import Gallery from '@/components/Gallery'
 import { Arrow, Download, GitHub, LinkedIn } from '@/components/icons'
+import Tag from '@/components/Tag'
 
 export default function Page() {
   return (
@@ -7,12 +8,25 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-medium tracking-tighter text-white">
         {`hey, I'm kriss 👋`}
       </h1>
-      <p>{`I'm a full stack developer, content creator and startup enthusiast. I help businesses achieve their goals through product-driven development, effective cost management and strategic decision-making.`}</p>
+      <p>
+        {`I'm a `}
+        <span className="underline decoration-gray-500 underline-offset-2">
+          full stack developer
+        </span>
+        , content creator and startup enthusiast. I help businesses achieve
+        their goals through product-driven development, effective cost
+        management and strategic decision-making.
+      </p>
 
       <Gallery />
 
       <p>
-        {`I have a track record of creating successful mvps in less than 4 months in industries such as Fintech, Education, Medtech, Ecommerce and Government.`}
+        {`I have a track record of creating successful MVPs `}
+        <span className="underline decoration-gray-500 underline-offset-2">
+          in less than 4 months
+        </span>{' '}
+        in industries such as Fintech, Education, Medtech, Ecommerce and
+        Government.
       </p>
       <p className="mt-2">You can read more about me here:</p>
 
@@ -41,9 +55,10 @@ export default function Page() {
 
       <p className="mt-8">
         Over the past few years, I have founded a few of my own projects. After
-        creating a web developer coaching community Tenxbase, then creating a
-        productivity SaaS Skool Assistant, I have now set my eyes on the
-        hospitality industry where I am proud to introduce The G.AI.A.
+        creating a web developer coaching community <Tag>Tenxbase</Tag> and
+        creating a productivity SaaS <Tag>Skool Assistant</Tag>, I have now set
+        my eyes on the hospitality industry where I am proud to introduce{' '}
+        <Tag>The G.AI.A</Tag>.
       </p>
 
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 md:flex-row md:space-x-4 md:space-y-0 text-neutral-300">
