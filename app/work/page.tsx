@@ -150,6 +150,39 @@ const Work = () => {
         </li>
         <li>Managed over 3.000+ users and over 200,000+ actions every day.</li>
       </ul>
+
+      <hr />
+
+      <h2 className="font-medium text-xl mb-1 tracking-tighter">
+        Society Venture Capital
+      </h2>
+      <p className="text-neutral-400 text-sm mb-4">
+        Freelance Full Stack Developer, Jan 2023 - Apr 2023
+      </p>
+
+      <p className="my-5">
+        SocietyVC set out to create the first contract collaboration service for
+        an undisclosed department from the US Government.
+      </p>
+
+      <ul className="list-dark">
+        <li>
+          Developed a document validator and collaboration web application MVP
+          in <Underline>less than 4 months</Underline>.
+        </li>
+        <li>
+          Maximise security and data protection by implementing GovCloud
+          infrastructure and private networks.
+        </li>
+        <li>
+          Provided realtime statistics and filters by efficiently parsing large
+          amounts of data.
+        </li>
+        <li>
+          Consulted on product features, cost estimates, development time and
+          user experience analysis.
+        </li>
+      </ul>
     </div>
   )
 }
