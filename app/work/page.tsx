@@ -61,8 +61,9 @@ const Work = () => {
 
       <ul className="list-dark">
         <li>
-          Increased the total traffic by 175% by completing the merger of
-          Admityogi and Dr.Ivy platforms in only 2 weeks.
+          Increased the total traffic by 175% by{' '}
+          <Underline>completing the merger</Underline> of Admityogi and Dr.Ivy
+          platforms in only 2 weeks.
         </li>
         <li>
           Improved security by implementing cross platform authentication and
