@@ -16,3 +16,19 @@ body {
 p {
   @apply leading-7;
 }
+
+hr {
+  @apply my-6 border-neutral-800;
+}
+
+ul {
+  @apply list-disc pl-7;
+}
+
+li {
+  @apply my-2 pl-2;
+}
+
+li::marker {
+  @apply text-gray-600;
+}
