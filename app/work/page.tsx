@@ -1,4 +1,11 @@
 import Underline from '@/components/Underline'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Kriss Gardner',
+  description:
+    'This is a list of my recent accomplishments and projects as a freelance full stack developer.',
+}
 
 const Work = () => {
   return (
