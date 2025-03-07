@@ -5,9 +5,9 @@ const Navigation = () => {
     <div className="text-white flex gap-5 font-light mb-16">
       <Link href="/">home</Link>
       <Link href="/work">work</Link>
-      <Link target="_blank" href="https://newsletter.krissgardner.com">
-        newsletter
-      </Link>
+      {/*<Link target="_blank" href="https://newsletter.krissgardner.com">*/}
+      {/*  newsletter*/}
+      {/*</Link>*/}
     </div>
   )
 }

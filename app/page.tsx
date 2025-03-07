@@ -76,17 +76,17 @@ export default function Page() {
             <p className="ml-2 h-7">follow me</p>
           </a>
         </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://newsletter.krissgardner.com"
-          >
-            <Arrow />
-            <p className="ml-2 h-7">get email updates</p>
-          </a>
-        </li>
+        {/*<li>*/}
+        {/*  <a*/}
+        {/*    className="flex items-center transition-all hover:text-neutral-100"*/}
+        {/*    rel="noopener noreferrer"*/}
+        {/*    target="_blank"*/}
+        {/*    href="https://newsletter.krissgardner.com"*/}
+        {/*  >*/}
+        {/*    <Arrow />*/}
+        {/*    <p className="ml-2 h-7">get email updates</p>*/}
+        {/*  </a>*/}
+        {/*</li>*/}
       </ul>
     </main>
   )
